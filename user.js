@@ -1,10 +1,10 @@
+// This file is a compilation of user.js available at:
 // https://brainfucksec.github.io/firefox-hardening-guide
 // https://ffprofile.com/
 // https://git.nixnet.services/Narsil/desktop_user.js
 // https://github.com/arkenfox/user.js
 // https://github.com/pyllyukko/user.js
 // https://github.com/yokoffing/Betterfox
-// This file is a compilation of user.js available at:
 // user_pref("beacon.enabled”, false); // hard config = breaks many websites
 // user_pref("dom.webgpu.enabled”, false); // hard config = breaks many websites
 // user_pref("media.peerconnection.enabled”, false); // hard config = breaks many websites
@@ -13,7 +13,7 @@
 // user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy”, true); // hard config = breaks many websites
 // user_pref("svg.disabled”, true); // hard config = breaks many websites
 // user_pref("webgl.disabled”, true); // hard config = breaks many websites
-user_pref("accessibility.blockautorefresh” true);
+user_pref("accessibility.blockautorefresh”, true);
 user_pref("accessibility.force_disabled", 1);
 user_pref("accessibility.typeaheadfind", false);
 user_pref("app.feedback.baseURL", "");
@@ -349,7 +349,7 @@ user_pref("extensions.blocklist.itemURL", "");
 user_pref("extensions.blocklist.url", "https://blocklist.addons.mozilla.org/blocklist/3/%APP_ID%/%APP_VERSION%/");
 user_pref("extensions.enabledScopes", 5);
 user_pref("extensions.formautofill.addresses.enabled", false);
-user_pref("extensions.formautofill.available, "off");
+user_pref("extensions.formautofill.available", "off");
 user_pref("extensions.formautofill.creditCards.available", false);
 user_pref("extensions.formautofill.creditCards.enabled", false);
 user_pref("extensions.formautofill.heuristics.enabled", false);
@@ -574,9 +574,9 @@ user_pref("privacy.globalprivacycontrol.functionality.enabled", true);
 user_pref("privacy.globalprivacycontrol.pbmode.enabled", true);
 user_pref("privacy.globalprivacycontrol.was_ever_enabled", true);
 user_pref("privacy.history.custom", true);
-user_pref("privacy.partition.always_partition_third_party_non_cookie_storage” true);
-user_pref("privacy.partition.always_partition_third_party_non_cookie_storage.exempt_sessionstorage” true);
-user_pref("privacy.partition.serviceWorkers” true);
+user_pref("privacy.partition.always_partition_third_party_non_cookie_storage”, true);
+user_pref("privacy.partition.always_partition_third_party_non_cookie_storage.exempt_sessionstorage”, true);
+user_pref("privacy.partition.serviceWorkers”, true);
 user_pref("privacy.popups.disable_from_plugins", 2);
 user_pref("privacy.query_stripping", true);
 user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking igshid mc_eid ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id rb_clickid s_cid twclid vero_conv vero_id wbraid wickedid yclid");
